@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 13/09/2014 01:29:31 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="dbml.Demo" table="demo" catalog="contactos">
+        <id name="idnewTable" type="java.lang.Integer">
+            <column name="idnew_table" />
+            <generator class="identity" />
+        </id>
+        <property name="demo" type="string">
+            <column name="demo" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

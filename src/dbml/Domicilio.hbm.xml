@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<!-- Generated 13/09/2014 01:29:31 PM by Hibernate Tools 3.6.0 -->
+<hibernate-mapping>
+    <class name="dbml.Domicilio" table="domicilio" catalog="contactos">
+        <id name="iddomicilio" type="java.lang.Integer">
+            <column name="iddomicilio" />
+            <generator class="identity" />
+        </id>
+        <property name="calle" type="string">
+            <column name="calle" length="45" />
+        </property>
+        <property name="colonia" type="string">
+            <column name="colonia" length="45" />
+        </property>
+        <property name="ciudad" type="string">
+            <column name="ciudad" length="45" />
+        </property>
+    </class>
+</hibernate-mapping>

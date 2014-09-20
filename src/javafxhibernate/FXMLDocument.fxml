@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="291.0" prefWidth="418.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="javafxhibernate.FXMLDocumentController">
+    <children>
+        <Button fx:id="button" layoutX="14.0" layoutY="14.0" onAction="#handleButtonAction" text="LOAD" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <TableView fx:id="table" layoutY="63.0" prefHeight="228.0" prefWidth="418.0">
+        <columns>
+            <TableColumn fx:id="id" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="nombre" prefWidth="75.0" text="NOMBRE" />
+          <TableColumn fx:id="correo" prefWidth="75.0" text="CORREO" />
+            <TableColumn fx:id="telefono" prefWidth="75.0" text="TELFONO" />
+        </columns>
+      </TableView>
+    </children>
+</AnchorPane>
