@@ -63,7 +63,7 @@ public class FXMLDocumentController implements Initializable {
 
             System.out.println("Instertando database !");
             Amigo customer = new Amigo();
-            customer.setNombres("HIBERNATE MAN 1111");
+            customer.setNombres("HIBERNATE MAN 11113333");
             customer.setCorreo("@HIBERNATE");
             customer.setTelf("111111111");
             session.save(customer);
